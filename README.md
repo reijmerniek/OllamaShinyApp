@@ -6,3 +6,5 @@ test tes test
 alt="Alt text" />
 <figcaption aria-hidden="true">Alt text</figcaption>
 </figure>
+
+<img src="full_app.png" width="50%" />
