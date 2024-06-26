@@ -21,4 +21,11 @@ started!
 
 # Demo
 
+<figure>
+<img
+src="https://github.com/reijmerniek/OllamaShinyApp/assets/59099643/567798d4-9805-41f4-a729-fa0dc6f116fa"
+alt="full_app" />
+<figcaption aria-hidden="true">full_app</figcaption>
+</figure>
+
 ## Installation
