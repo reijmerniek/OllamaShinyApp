@@ -1,5 +1,7 @@
 
-\#OllamaShinyApp Welcome to the OllamaShinyApp!
+# OllamaShinyApp
+
+Welcome to the OllamaShinyApp!
 
 This project leverages the power of the R package rollama to create a
 dynamic Shiny dashboard, enabling you to run a local Language Model
@@ -43,7 +45,7 @@ Below you find a screenshot of the dashboard running in RStudio.
   and enabled, the standard model is used by default unless you choose
   to use the parameters provided.
 
-# Running the App Locally
+## Running the App Locally
 
 To run a Shiny app and make it available to others, you typically need
 to host it on a server. However, if you prefer to keep things simple and
@@ -51,11 +53,13 @@ run it on your home PC, you can use the code below. Depending on your
 hardware, it can be very fast and user-friendly. For instance, with a
 7800XT, the performance is excellent. To stream it to your network, your
 PC needs to stay on. You can then access the app by typing your IP
-address on another device.
+address on another device. It could be necessary to grant access to your
+firewall. You can find more on this topic at
+<https://stackoverflow.com/questions/16052441/can-i-host-a-shiny-app-on-a-windows-machine>.
 
 ``` r
 require(shiny)
-folder_address = 'G:/My Drive/R/shiny apps/chatbot/'
+folder_address = 'YOUR/ADRES'
 
 x <- system("ipconfig", intern=TRUE)
 z <- x[grep("IPv4", x)]
